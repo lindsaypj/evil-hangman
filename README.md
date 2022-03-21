@@ -1,8 +1,7 @@
 # evil-hangman
 
-================================================================================
-HOW THE GAME WORKS:
-================================================================================
+HOW THE GAME WORKS
+
 In a normal game of hangman, the computer picks a word that doesn’t change, and 
 then the user is supposed to guess. The user guesses individual letters until the word is 
 fully discovered. If you aren’t familiar with the general rules of the game of hangman,
