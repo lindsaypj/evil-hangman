@@ -23,13 +23,20 @@ the user’s first guess is 'e'. The computer has to reveal where the letter 'e'
 since it hasn't chosen an answer, it has several options. In particular, note that the
 dictionary's words fall into 5 families:
 
-  ---- is the pattern for [ally, cool, good]
-  e--- is an empty pattern with no possible values.
+  ---- is the pattern for [ally, cool, good] 
+  
+  e--- is an empty pattern with no possible values
+  
   -e-- is the pattern for [beta, deal]
+  
   --e- is the pattern for [flew, ibex]
+  
   ---e is the pattern for [hope]
+  
   e--e is the pattern for [else]
+  
   all other patterns are empty.
+  
   
 The computer could choose to reveal any of these 5 patterns. It could use several 
 different strategies for picking the family to display. For this project, your program will 
@@ -42,7 +49,9 @@ counts this as a wrong guess and decreases the number of guesses left to 6.
 Next, the user guesses the letter 'o'. The computer has two word families to consider:
 
   -oo- is the pattern for [cool, good]
+  
   ---- is the pattern for [ally]
+
 
 It picks the biggest family and reveals the letter 'o' in two places. This was a correct guess so 
 the user still has 6 guesses left. The computer now has only two possible answers to choose 
